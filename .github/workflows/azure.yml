@@ -31,12 +31,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-    - name: Azure Login
-      uses: Azure/login@v1
-      with:
-      # Paste output of `az ad sp create-for-rbac` as value of secret variable: AZURE_CREDENTIALS
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
-    - uses: actions/checkout@v2
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v2
       with:
