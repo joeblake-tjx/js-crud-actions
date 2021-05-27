@@ -25,9 +25,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '14'                # set this to the node version to use
 
-defaults:
-  run:
-    working-directory: '/workspace/js-crud-actions'
+
 jobs:
   build-and-deploy:
     name: Build and Deploy
