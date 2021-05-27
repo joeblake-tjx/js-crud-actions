@@ -27,7 +27,7 @@ env:
 
 defaults:
   run:
-    working-directory: '/home/runner/work/js-crud-actions'
+    working-directory: '/home/runner/js-crud-actions'
 jobs:
   build-and-deploy:
     name: Build and Deploy
