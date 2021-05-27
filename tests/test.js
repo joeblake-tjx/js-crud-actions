@@ -5,5 +5,5 @@ describe('sanity', function() {
     it('should return true', function() {
       assert(2>1);
     })
-  });
- 
+  })
+});
